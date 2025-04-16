@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Cherry Candy Shop</title>
+  <link rel="stylesheet" href="css/style_CWa371.css" />
+  <script src="script/script_CWa371.js"></script>
+</body>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>🍒 Cherry Candy Shop 🍒</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page2_CWa371.html">Candies</a></li>
+          <li><a href="page3_CWa371.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact">
+    <div class="container">
+      <h2>🍬 Contact Cherry Candy Shop</h2>
+      <p>We’re here to sweeten your day! Drop us a message or place your candy order 💌</p>
+  
+      <div class="info-box">
+        <p><strong>📍 Address:</strong> 371 Cherry St, Candyville, Vancouver, BC</p>
+        <p><strong>⏰ Hours:</strong> Mon–Fri, 10AM–6PM</p>
+        <p><strong>📧 Email:</strong> CustomerService@cherrycandyshop.com</p>
+      </div>
+  
+      <form id="contactForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+  
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+  
+        <label for="candy">Select Candy:</label>
+        <select name="candy" id="candy" required>
+          <option value="">--Choose One--</option>
+          <option value="Cherry Lollipop">Cherry Lollipop</option>
+          <option value="Gummy Bears">Gummy Bears</option>
+          <option value="Fruit Chews">Fruit Chews</option>
+        </select>
+  
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required />
+  
+        <label>Order Purpose:</label>
+        <div class="radio-group">
+          <label><input type="radio" name="purpose" value="Gift" required /> Gift</label>
+          <label><input type="radio" name="purpose" value="Personal" /> Personal Treat</label>
+        </div>
+  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us something sweet..."></textarea>
+  
+        <button type="submit">✨ Submit Order ✨</button>
+      </form>
+  
+      <div class="map">
+        <h3>🍭 Come Visit Us!</h3>
+        <img src="images/map-placeholder.jpg" alt="Map to Candy Shop" />
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="container">
+        <p>&copy; 2025 Cherry Candy Shop &nbsp; Charity Wang 2025 Winter CSIS1280</p>
+    </div>
+  </footer>
+  
+</html>
